@@ -1,0 +1,432 @@
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7369 SMITH      CLERK           7902 17-DEC-80        800                    20        102
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300         30        102
+      7521 WARD       SALESMAN        7698 22-FEB-81       1250        500         30        103
+      7566 JONES      MANAGER         7839 02-APR-81       2975                    20        104
+      7654 MARTIN     SALESMAN        7698 28-SEP-81       1250       1400         30        105
+      7698 BLAKE      MANAGER         7839 01-MAY-81       2850                    30        105
+      7782 CLARK      MANAGER         7839 09-JUN-81       2450                    10        102
+      7788 SCOTT      ANALYST         7566 19-APR-87       3000                    20        103
+      7839 KING       PRESIDENT            17-NOV-81       5000                              101
+      7844 TURNER     SALESMAN        7698 08-SEP-81       1500          0         30        104
+      7876 ADAMS      CLERK           7788 23-MAY-87       1100                    20        105
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7900 JAMES      CLERK           7698 03-DEC-81        950                    30        103
+      7902 FORD       ANALYST         7566 03-DEC-81       3000                    20        105
+      7934 MILLER     CLERK           7782 23-JAN-82       1300                    10        104
+      7901 JOHN_SMITH CLERK           7698 23-JAN-82       3000                    30        104
+
+15 rows selected. 
+
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7369 SMITH      CLERK           7902 17-DEC-80        800                    20        102
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300         30        102
+      7521 WARD       SALESMAN        7698 22-FEB-81       1250        500         30        103
+      7566 JONES      MANAGER         7839 02-APR-81       2975                    20        104
+      7654 MARTIN     SALESMAN        7698 28-SEP-81       1250       1400         30        105
+      7698 BLAKE      MANAGER         7839 01-MAY-81       2850                    30        105
+      7782 CLARK      MANAGER         7839 09-JUN-81       2450                    10        102
+      7788 SCOTT      ANALYST         7566 19-APR-87       3000                    20        103
+      7839 KING       PRESIDENT            17-NOV-81       5000                              101
+      7844 TURNER     SALESMAN        7698 08-SEP-81       1500          0         30        104
+      7876 ADAMS      CLERK           7788 23-MAY-87       1100                    20        105
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7900 JAMES      CLERK           7698 03-DEC-81        950                    30        103
+      7902 FORD       ANALYST         7566 03-DEC-81       3000                    20        105
+      7934 MILLER     CLERK           7782 23-JAN-82       1300                    10        104
+      7901 JOHN_SMITH CLERK           7698 23-JAN-82       3000                    30        104
+
+15 rows selected. 
+
+
+JOB      
+---------
+CLERK
+SALESMAN
+MANAGER
+ANALYST
+PRESIDENT
+
+
+     EMPNO ENAME      JOB              SAL
+---------- ---------- --------- ----------
+      7369 SMITH      CLERK            800
+      7900 JAMES      CLERK            950
+      7876 ADAMS      CLERK           1100
+      7521 WARD       SALESMAN        1250
+      7654 MARTIN     SALESMAN        1250
+      7934 MILLER     CLERK           1300
+      7844 TURNER     SALESMAN        1500
+      7499 ALLEN      SALESMAN        1600
+      7782 CLARK      MANAGER         2450
+      7698 BLAKE      MANAGER         2850
+      7566 JONES      MANAGER         2975
+
+     EMPNO ENAME      JOB              SAL
+---------- ---------- --------- ----------
+      7902 FORD       ANALYST         3000
+      7901 JOHN_SMITH CLERK           3000
+      7788 SCOTT      ANALYST         3000
+      7839 KING       PRESIDENT       5000
+
+15 rows selected. 
+
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7782 CLARK      MANAGER         7839 09-JUN-81       2450                    10        102
+      7934 MILLER     CLERK           7782 23-JAN-82       1300                    10        104
+      7566 JONES      MANAGER         7839 02-APR-81       2975                    20        104
+      7369 SMITH      CLERK           7902 17-DEC-80        800                    20        102
+      7876 ADAMS      CLERK           7788 23-MAY-87       1100                    20        105
+      7788 SCOTT      ANALYST         7566 19-APR-87       3000                    20        103
+      7902 FORD       ANALYST         7566 03-DEC-81       3000                    20        105
+      7844 TURNER     SALESMAN        7698 08-SEP-81       1500          0         30        104
+      7521 WARD       SALESMAN        7698 22-FEB-81       1250        500         30        103
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300         30        102
+      7654 MARTIN     SALESMAN        7698 28-SEP-81       1250       1400         30        105
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7698 BLAKE      MANAGER         7839 01-MAY-81       2850                    30        105
+      7901 JOHN_SMITH CLERK           7698 23-JAN-82       3000                    30        104
+      7900 JAMES      CLERK           7698 03-DEC-81        950                    30        103
+      7839 KING       PRESIDENT            17-NOV-81       5000                              101
+
+15 rows selected. 
+
+
+JOB      
+---------
+SALESMAN
+PRESIDENT
+MANAGER
+CLERK
+ANALYST
+
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7566 JONES      MANAGER         7839 02-APR-81       2975                    20        104
+      7698 BLAKE      MANAGER         7839 01-MAY-81       2850                    30        105
+      7782 CLARK      MANAGER         7839 09-JUN-81       2450                    10        102
+
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7369 SMITH      CLERK           7902 17-DEC-80        800                    20        102
+
+
+     EMPNO ENAME             SAL ANNUAL_SALARY
+---------- ---------- ---------- -------------
+      7369 SMITH             800          9600
+      7900 JAMES             950         11400
+      7876 ADAMS            1100         13200
+      7521 WARD             1250         15000
+      7654 MARTIN           1250         15000
+      7934 MILLER           1300         15600
+      7844 TURNER           1500         18000
+      7499 ALLEN            1600         19200
+      7782 CLARK            2450         29400
+      7698 BLAKE            2850         34200
+      7566 JONES            2975         35700
+
+     EMPNO ENAME             SAL ANNUAL_SALARY
+---------- ---------- ---------- -------------
+      7902 FORD             3000         36000
+      7901 JOHN_SMITH       3000         36000
+      7788 SCOTT            3000         36000
+      7839 KING             5000         60000
+
+15 rows selected. 
+
+
+     EMPNO ENAME      JOB       HIREDATE 
+---------- ---------- --------- ---------
+      7369 SMITH      CLERK     17-DEC-80
+      7499 ALLEN      SALESMAN  20-FEB-81
+      7521 WARD       SALESMAN  22-FEB-81
+      7654 MARTIN     SALESMAN  28-SEP-81
+      7788 SCOTT      ANALYST   19-APR-87
+      7839 KING       PRESIDENT 17-NOV-81
+      7844 TURNER     SALESMAN  08-SEP-81
+      7876 ADAMS      CLERK     23-MAY-87
+      7900 JAMES      CLERK     03-DEC-81
+      7902 FORD       ANALYST   03-DEC-81
+      7934 MILLER     CLERK     23-JAN-82
+
+     EMPNO ENAME      JOB       HIREDATE 
+---------- ---------- --------- ---------
+      7901 JOHN_SMITH CLERK     23-JAN-82
+
+12 rows selected. 
+
+no rows selected
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7654 MARTIN     SALESMAN        7698 28-SEP-81       1250       1400         30        105
+
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7369 SMITH      CLERK           7902 17-DEC-80        800                    20        102
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300         30        102
+      7521 WARD       SALESMAN        7698 22-FEB-81       1250        500         30        103
+      7566 JONES      MANAGER         7839 02-APR-81       2975                    20        104
+      7654 MARTIN     SALESMAN        7698 28-SEP-81       1250       1400         30        105
+      7698 BLAKE      MANAGER         7839 01-MAY-81       2850                    30        105
+      7782 CLARK      MANAGER         7839 09-JUN-81       2450                    10        102
+      7788 SCOTT      ANALYST         7566 19-APR-87       3000                    20        103
+      7839 KING       PRESIDENT            17-NOV-81       5000                              101
+      7844 TURNER     SALESMAN        7698 08-SEP-81       1500          0         30        104
+      7876 ADAMS      CLERK           7788 23-MAY-87       1100                    20        105
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7900 JAMES      CLERK           7698 03-DEC-81        950                    30        103
+      7902 FORD       ANALYST         7566 03-DEC-81       3000                    20        105
+      7934 MILLER     CLERK           7782 23-JAN-82       1300                    10        104
+      7901 JOHN_SMITH CLERK           7698 23-JAN-82       3000                    30        104
+
+15 rows selected. 
+
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7369 SMITH      CLERK           7902 17-DEC-80        800                    20        102
+      7900 JAMES      CLERK           7698 03-DEC-81        950                    30        103
+      7934 MILLER     CLERK           7782 23-JAN-82       1300                    10        104
+      7876 ADAMS      CLERK           7788 23-MAY-87       1100                    20        105
+      7901 JOHN_SMITH CLERK           7698 23-JAN-82       3000                    30        104
+      7902 FORD       ANALYST         7566 03-DEC-81       3000                    20        105
+      7788 SCOTT      ANALYST         7566 19-APR-87       3000                    20        103
+
+7 rows selected. 
+
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7698 BLAKE      MANAGER         7839 01-MAY-81       2850                    30        105
+      7902 FORD       ANALYST         7566 03-DEC-81       3000                    20        105
+      7900 JAMES      CLERK           7698 03-DEC-81        950                    30        103
+
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7934 MILLER     CLERK           7782 23-JAN-82       1300                    10        104
+      7782 CLARK      MANAGER         7839 09-JUN-81       2450                    10        102
+      7876 ADAMS      CLERK           7788 23-MAY-87       1100                    20        105
+      7902 FORD       ANALYST         7566 03-DEC-81       3000                    20        105
+      7566 JONES      MANAGER         7839 02-APR-81       2975                    20        104
+      7369 SMITH      CLERK           7902 17-DEC-80        800                    20        102
+      7788 SCOTT      ANALYST         7566 19-APR-87       3000                    20        103
+
+7 rows selected. 
+
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300         30        102
+      7521 WARD       SALESMAN        7698 22-FEB-81       1250        500         30        103
+      7566 JONES      MANAGER         7839 02-APR-81       2975                    20        104
+      7698 BLAKE      MANAGER         7839 01-MAY-81       2850                    30        105
+      7782 CLARK      MANAGER         7839 09-JUN-81       2450                    10        102
+      7844 TURNER     SALESMAN        7698 08-SEP-81       1500          0         30        104
+      7654 MARTIN     SALESMAN        7698 28-SEP-81       1250       1400         30        105
+      7839 KING       PRESIDENT            17-NOV-81       5000                              101
+      7902 FORD       ANALYST         7566 03-DEC-81       3000                    20        105
+      7900 JAMES      CLERK           7698 03-DEC-81        950                    30        103
+
+10 rows selected. 
+
+
+ENAME             SAL ANNUAL_SALARY
+---------- ---------- -------------
+CLARK            2450         29400
+BLAKE            2850         34200
+JONES            2975         35700
+JOHN_SMITH       3000         36000
+SCOTT            3000         36000
+FORD             3000         36000
+
+6 rows selected. 
+
+
+ENAME     
+----------
+SMITH
+ALLEN
+JONES
+BLAKE
+CLARK
+SCOTT
+ADAMS
+JAMES
+
+8 rows selected. 
+
+
+ENAME     
+----------
+SMITH
+SCOTT
+
+
+ENAME     
+----------
+WARD
+FORD
+
+
+ENAME     
+----------
+SMITH
+
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7901 JOHN_SMITH CLERK           7698 23-JAN-82       3000                    30        104
+      7934 MILLER     CLERK           7782 23-JAN-82       1300                    10        104
+
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300         30        102
+      7934 MILLER     CLERK           7782 23-JAN-82       1300                    10        104
+
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7782 CLARK      MANAGER         7839 09-JUN-81       2450                    10        102
+      7934 MILLER     CLERK           7782 23-JAN-82       1300                    10        104
+      7654 MARTIN     SALESMAN        7698 28-SEP-81       1250       1400         30        105
+      7698 BLAKE      MANAGER         7839 01-MAY-81       2850                    30        105
+      7901 JOHN_SMITH CLERK           7698 23-JAN-82       3000                    30        104
+      7844 TURNER     SALESMAN        7698 08-SEP-81       1500          0         30        104
+      7900 JAMES      CLERK           7698 03-DEC-81        950                    30        103
+      7521 WARD       SALESMAN        7698 22-FEB-81       1250        500         30        103
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300         30        102
+
+9 rows selected. 
+
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7369 SMITH      CLERK           7902 17-DEC-80        800                    20        102
+      7900 JAMES      CLERK           7698 03-DEC-81        950                    30        103
+      7876 ADAMS      CLERK           7788 23-MAY-87       1100                    20        105
+      7521 WARD       SALESMAN        7698 22-FEB-81       1250        500         30        103
+      7654 MARTIN     SALESMAN        7698 28-SEP-81       1250       1400         30        105
+      7934 MILLER     CLERK           7782 23-JAN-82       1300                    10        104
+      7844 TURNER     SALESMAN        7698 08-SEP-81       1500          0         30        104
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300         30        102
+      7788 SCOTT      ANALYST         7566 19-APR-87       3000                    20        103
+      7902 FORD       ANALYST         7566 03-DEC-81       3000                    20        105
+      7901 JOHN_SMITH CLERK           7698 23-JAN-82       3000                    30        104
+
+11 rows selected. 
+
+
+     EMPNO ENAME      TRIM(T
+---------- ---------- ------
+      7369 SMITH      7369  
+      7499 ALLEN      7499  
+      7521 WARD       7521  
+      7566 JONES      7566  
+      7654 MARTIN     7654  
+      7698 BLAKE      7698  
+      7782 CLARK      7782  
+      7788 SCOTT      7788  
+      7900 JAMES      7900  
+      7901 JOHN_SMITH 7901  
+      7902 FORD       7902  
+
+     EMPNO ENAME      TRIM(T
+---------- ---------- ------
+      7934 MILLER     7934  
+
+12 rows selected. 
+
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7369 SMITH      CLERK           7902 17-DEC-80        800                    20        102
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300         30        102
+      7521 WARD       SALESMAN        7698 22-FEB-81       1250        500         30        103
+      7566 JONES      MANAGER         7839 02-APR-81       2975                    20        104
+      7654 MARTIN     SALESMAN        7698 28-SEP-81       1250       1400         30        105
+      7698 BLAKE      MANAGER         7839 01-MAY-81       2850                    30        105
+      7782 CLARK      MANAGER         7839 09-JUN-81       2450                    10        102
+      7788 SCOTT      ANALYST         7566 19-APR-87       3000                    20        103
+      7844 TURNER     SALESMAN        7698 08-SEP-81       1500          0         30        104
+      7876 ADAMS      CLERK           7788 23-MAY-87       1100                    20        105
+      7900 JAMES      CLERK           7698 03-DEC-81        950                    30        103
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7902 FORD       ANALYST         7566 03-DEC-81       3000                    20        105
+      7934 MILLER     CLERK           7782 23-JAN-82       1300                    10        104
+      7901 JOHN_SMITH CLERK           7698 23-JAN-82       3000                    30        104
+
+14 rows selected. 
+
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7369 SMITH      CLERK           7902 17-DEC-80        800                    20        102
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300         30        102
+      7521 WARD       SALESMAN        7698 22-FEB-81       1250        500         30        103
+      7566 JONES      MANAGER         7839 02-APR-81       2975                    20        104
+      7698 BLAKE      MANAGER         7839 01-MAY-81       2850                    30        105
+      7782 CLARK      MANAGER         7839 09-JUN-81       2450                    10        102
+      7844 TURNER     SALESMAN        7698 08-SEP-81       1500          0         30        104
+      7654 MARTIN     SALESMAN        7698 28-SEP-81       1250       1400         30        105
+      7839 KING       PRESIDENT            17-NOV-81       5000                              101
+      7902 FORD       ANALYST         7566 03-DEC-81       3000                    20        105
+      7900 JAMES      CLERK           7698 03-DEC-81        950                    30        103
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7788 SCOTT      ANALYST         7566 19-APR-87       3000                    20        103
+      7876 ADAMS      CLERK           7788 23-MAY-87       1100                    20        105
+
+13 rows selected. 
+
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7369 SMITH      CLERK           7902 17-DEC-80        800                    20        102
+      7876 ADAMS      CLERK           7788 23-MAY-87       1100                    20        105
+
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ----------
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300         30        102
+      7521 WARD       SALESMAN        7698 22-FEB-81       1250        500         30        103
+      7654 MARTIN     SALESMAN        7698 28-SEP-81       1250       1400         30        105
+      7698 BLAKE      MANAGER         7839 01-MAY-81       2850                    30        105
+      7782 CLARK      MANAGER         7839 09-JUN-81       2450                    10        102
+      7844 TURNER     SALESMAN        7698 08-SEP-81       1500          0         30        104
+      7900 JAMES      CLERK           7698 03-DEC-81        950                    30        103
+
+7 rows selected. 
+
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO   BRANCHNO     DEPTNO DNAME            BRANCHNO   BRANCHNO BRANCHNAME           LOCATION            
+---------- ---------- --------- ---------- --------- ---------- ---------- ---------- ---------- ---------- -------------- ---------- ---------- -------------------- --------------------
+      7369 SMITH      CLERK           7902 17-DEC-80        800                    20        102         20 RESEARCH              103        103 CHICAGO              CHICAGO             
+
+
+ENAME      LOCATION            
+---------- --------------------
+SMITH      CHICAGO             
+
